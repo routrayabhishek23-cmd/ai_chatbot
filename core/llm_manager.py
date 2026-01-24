@@ -19,7 +19,8 @@ class LLMManager:
             print("Warning: GOOGLE_API_KEY not found in environment.")
             return
         genai.configure(api_key=api_key)
-        self.model = genai.GenerativeModel('gemini-pro')
+        # Using gemini-flash-latest which has better free tier quota limits
+        self.model = genai.GenerativeModel('gemini-flash-latest')
 
     def get_response(self, prompt: str) -> str:
         """
