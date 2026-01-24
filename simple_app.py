@@ -17,7 +17,7 @@ genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-flash-latest')
 
 # 3. UI Design
-st.title("🚀 Quick AI Assistant")
+st.title("🚀 Quick AI Assistant - by Abhishek Routray")
 st.caption("A simple, one-file version of the Full-Stack Chatbot")
 
 # 4. Chat logic

@@ -1,5 +1,7 @@
 # PROJECT REPORT: DESIGN AND IMPLEMENTATION OF AN AI CHATBOT USING LLMs
 
+**Submitted by:** Abhishek Routray
+
 ## 1. ABSTRACT
 This project presents the development of a full-stack AI chatbot application designed to provide interactive conversational experiences using Large Language Models (LLMs). By leveraging FastAPI for the backend and Streamlit for the frontend, the system demonstrates a robust architecture that separates concerns between user interface, logic processing, and external AI integration. The primary contribution of this work is a modular framework that allows for seamless integration of various LLM providers (e.g., Google Gemini, OpenAI) while maintaining high performance and code readability.
 

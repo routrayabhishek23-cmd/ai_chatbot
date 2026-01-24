@@ -39,7 +39,7 @@ with st.sidebar:
     - Google Gemini (LLM)
     
     **Developed by:**
-    [Your Name]
+    Abhishek Routray
     """)
     if st.button("Clear Chat"):
         st.session_state.messages = []
